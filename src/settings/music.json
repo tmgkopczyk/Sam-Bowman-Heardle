@@ -828,30 +828,6 @@
     }
   },
   {
-    "title": "Feel Lonely",
-    "media": "Feel Lonely",
-    "url": "https://www.youtube.com/watch?v=2T_XPkvAIQw",
-    "tags": {
-      "year": 2020,
-      "console": "Sam Bowman",
-      "series": "single",
-      "game": "Feel Lonely",
-      "game-genre": "Pop"
-    }
-  },
-  {
-    "title": "Ashes",
-    "media": "Ashes",
-    "url": "https://www.youtube.com/watch?v=hyDJK5XCp6Q",
-    "tags": {
-      "year": 2021,
-      "console": "Sam Bowman",
-      "series": "single",
-      "game": "Ashes",
-      "game-genre": "Pop"
-    }
-  },
-  {
     "title": "Broken Clarity (Sam Bowman Remix)",
     "media": "Broken Clarity (Sam Bowman Remix)",
     "url": "https://www.youtube.com/watch?v=EM71VEoqnH8",
@@ -876,30 +852,6 @@
     }
   },
   {
-    "title": "Daydream",
-    "media": "Daydream",
-    "url": "https://www.youtube.com/watch?v=91KGSnwn7sQ",
-    "tags": {
-      "year": 2021,
-      "console": "Xander Sallows",
-      "series": "single",
-      "game": "Daydream",
-      "game-genre": "Pop"
-    }
-  },
-  {
-    "title": "Feel Lonely (Matthew Parker Remix)",
-    "media": "Feel Lonely (Matthew Parker Remix)",
-    "url": "https://www.youtube.com/watch?v=JwFX742-hD8",
-    "tags": {
-      "year": 2021,
-      "console": "Sam Bowman",
-      "series": "single",
-      "game": "Feel Lonely (Matthew Parker Remix)",
-      "game-genre": "Pop"
-    }
-  },
-  {
     "title": "I GET THIS?",
     "media": "I GET THIS?",
     "url": "https://www.youtube.com/watch?v=upuQ5OwNJc8",
@@ -912,30 +864,6 @@
     }
   },
   {
-    "title": "Icarus",
-    "media": "Icarus",
-    "url": "https://www.youtube.com/watch?v=-3-46tSs9C0",
-    "tags": {
-      "year": 2021,
-      "console": "Sam Bowman",
-      "series": "single",
-      "game": "Icarus",
-      "game-genre": "Pop"
-    }
-  },
-  {
-    "title": "Miss You",
-    "media": "Miss You",
-    "url": "https://www.youtube.com/watch?v=YgmDK9l6H-4",
-    "tags": {
-      "year": 2021,
-      "console": "Sam Bowman",
-      "series": "single",
-      "game": "Miss You",
-      "game-genre": "Pop"
-    }
-  },
-  {
     "title": "Someone (Remix)",
     "media": "Someone (Remix)",
     "url": "https://www.youtube.com/watch?v=CR5i7GlzEIk",
@@ -944,18 +872,6 @@
       "console": "Xander Sallows",
       "series": "single",
       "game": "Someone (Remix)",
-      "game-genre": "Pop"
-    }
-  },
-  {
-    "title": "someone",
-    "media": "someone",
-    "url": "https://www.youtube.com/watch?v=SOUo8msF0rU",
-    "tags": {
-      "year": 2021,
-      "console": "Xander Sallows",
-      "series": "single",
-      "game": "someone",
       "game-genre": "Pop"
     }
   },
@@ -1044,18 +960,6 @@
     }
   },
   {
-    "title": "garden king",
-    "media": "garden king",
-    "url": "https://www.youtube.com/watch?v=zigsZZagrU0",
-    "tags": {
-      "year": 2023,
-      "console": "Sam Bowman",
-      "series": "single",
-      "game": "garden king",
-      "game-genre": "Pop"
-    }
-  },
-  {
     "title": "headroom (from Young Pop Renegades, Vol. 2)",
     "media": "headroom (from Young Pop Renegades, Vol. 2)",
     "url": "https://www.youtube.com/watch?v=MTWNV-PavoM",
@@ -1064,78 +968,6 @@
       "console": "Sam Bowman",
       "series": "single",
       "game": "headroom (from Young Pop Renegades, Vol. 2)",
-      "game-genre": "Pop"
-    }
-  },
-  {
-    "title": "hero",
-    "media": "hero",
-    "url": "https://www.youtube.com/watch?v=QnKRK5HUjJQ",
-    "tags": {
-      "year": 2023,
-      "console": "Sam Bowman",
-      "series": "single",
-      "game": "hero",
-      "game-genre": "Pop"
-    }
-  },
-  {
-    "title": "i ain't worried (Nitro X Remix)",
-    "media": "i ain't worried (Nitro X Remix)",
-    "url": "https://www.youtube.com/watch?v=8rRQBb-LEgY",
-    "tags": {
-      "year": 2023,
-      "console": "Sam Bowman",
-      "series": "single",
-      "game": "i ain't worried (Nitro X Remix)",
-      "game-genre": "Pop"
-    }
-  },
-  {
-    "title": "i ain't worried about a thing",
-    "media": "i ain't worried about a thing",
-    "url": "https://www.youtube.com/watch?v=DEKPgd0oTCI",
-    "tags": {
-      "year": 2023,
-      "console": "Sam Bowman",
-      "series": "single",
-      "game": "i ain't worried about a thing",
-      "game-genre": "Pop"
-    }
-  },
-  {
-    "title": "icarus (phantom version)",
-    "media": "icarus (phantom version)",
-    "url": "https://www.youtube.com/watch?v=8Gq8Uq3cruA",
-    "tags": {
-      "year": 2023,
-      "console": "Sam Bowman",
-      "series": "single",
-      "game": "icarus (phantom version)",
-      "game-genre": "Pop"
-    }
-  },
-  {
-    "title": "let all mortal flesh keep silence",
-    "media": "let all mortal flesh keep silence",
-    "url": "https://www.youtube.com/watch?v=mUWt6S-OzHs",
-    "tags": {
-      "year": 2023,
-      "console": "Sam Bowman",
-      "series": "single",
-      "game": "let all mortal flesh keep silence",
-      "game-genre": "Pop"
-    }
-  },
-  {
-    "title": "rose-colored glasses",
-    "media": "rose-colored glasses",
-    "url": "https://www.youtube.com/watch?v=mJEZtbroSlc",
-    "tags": {
-      "year": 2023,
-      "console": "Sam Bowman",
-      "series": "single",
-      "game": "rose-colored glasses",
       "game-genre": "Pop"
     }
   },
@@ -1152,18 +984,6 @@
     }
   },
   {
-    "title": "smoke (phantom version)",
-    "media": "smoke (phantom version)",
-    "url": "https://www.youtube.com/watch?v=8Gq8Uq3cruA",
-    "tags": {
-      "year": 2023,
-      "console": "Sam Bowman",
-      "series": "single",
-      "game": "smoke (phantom version)",
-      "game-genre": "Pop"
-    }
-  },
-  {
     "title": "thanks (from Young Pop Renegades Vol. 2)",
     "media": "thanks (from Young Pop Renegades Vol. 2)",
     "url": "https://www.youtube.com/watch?v=J83pjO9y-yo",
@@ -1172,90 +992,6 @@
       "console": "Matthew Parker",
       "series": "single",
       "game": "thanks (from Young Pop Renegades Vol. 2)",
-      "game-genre": "Pop"
-    }
-  },
-  {
-    "title": "vintage vice",
-    "media": "vintage vice",
-    "url": "https://www.youtube.com/watch?v=JNWZ4gevp-Q",
-    "tags": {
-      "year": 2023,
-      "console": "Sam Bowman",
-      "series": "single",
-      "game": "vintage vice",
-      "game-genre": "Pop"
-    }
-  },
-  {
-    "title": "whisper",
-    "media": "whisper",
-    "url": "https://www.youtube.com/watch?v=_P47Diq3e1w",
-    "tags": {
-      "year": 2023,
-      "console": "Sam Bowman",
-      "series": "single",
-      "game": "whisper",
-      "game-genre": "Pop"
-    }
-  },
-  {
-    "title": "whisper (BOUE Remix)",
-    "media": "whisper (BOUE Remix)",
-    "url": "https://www.youtube.com/watch?v=Ndv1_juBz8k",
-    "tags": {
-      "year": 2023,
-      "console": "Sam Bowman",
-      "series": "single",
-      "game": "whisper (BOUE Remix)",
-      "game-genre": "Pop"
-    }
-  },
-  {
-    "title": "whisper (Matthew Parker Remix)",
-    "media": "whisper (Matthew Parker Remix)",
-    "url": "https://www.youtube.com/watch?v=otq5m35Jld4",
-    "tags": {
-      "year": 2023,
-      "console": "Sam Bowman",
-      "series": "single",
-      "game": "whisper (Matthew Parker Remix)",
-      "game-genre": "Pop"
-    }
-  },
-  {
-    "title": "whoosh",
-    "media": "whoosh",
-    "url": "https://www.youtube.com/watch?v=c5P8zyKCoVY",
-    "tags": {
-      "year": 2023,
-      "console": "Sam Bowman",
-      "series": "single",
-      "game": "whoosh",
-      "game-genre": "Pop"
-    }
-  },
-  {
-    "title": "wisteria",
-    "media": "wisteria",
-    "url": "https://www.youtube.com/watch?v=U7_6QgGZpzw",
-    "tags": {
-      "year": 2023,
-      "console": "Sam Bowman",
-      "series": "single",
-      "game": "wisteria",
-      "game-genre": "Pop"
-    }
-  },
-  {
-    "title": "DO THE NEXT THING",
-    "media": "DO THE NEXT THING",
-    "url": "https://www.youtube.com/watch?v=_0-GgjLKwgs",
-    "tags": {
-      "year": 2024,
-      "console": "Sam Bowman",
-      "series": "single",
-      "game": "DO THE NEXT THING",
       "game-genre": "Pop"
     }
   },
@@ -1296,54 +1032,6 @@
     }
   },
   {
-    "title": "CRESCERE",
-    "media": "CRESCERE",
-    "url": "https://www.youtube.com/watch?v=QKJWMTTeF8w",
-    "tags": {
-      "year": 2025,
-      "console": "Sam Bowman",
-      "series": "single",
-      "game": "CRESCERE",
-      "game-genre": "Pop"
-    }
-  },
-  {
-    "title": "FLYING DUTCHMAN",
-    "media": "FLYING DUTCHMAN",
-    "url": "https://www.youtube.com/results?search_query=FLYING%20DUTCHMAN%20Sam%20Bowman%20audio",
-    "tags": {
-      "year": 2025,
-      "console": "Sam Bowman",
-      "series": "single",
-      "game": "FLYING DUTCHMAN",
-      "game-genre": "Pop"
-    }
-  },
-  {
-    "title": "GRAVITY",
-    "media": "GRAVITY",
-    "url": "https://www.youtube.com/watch?v=DZ9O_w3ptYU",
-    "tags": {
-      "year": 2025,
-      "console": "Sam Bowman",
-      "series": "single",
-      "game": "GRAVITY",
-      "game-genre": "Pop"
-    }
-  },
-  {
-    "title": "INERTIA",
-    "media": "INERTIA",
-    "url": "https://www.youtube.com/watch?v=dMmxbbDcqxs",
-    "tags": {
-      "year": 2025,
-      "console": "Sam Bowman",
-      "series": "single",
-      "game": "INERTIA",
-      "game-genre": "Pop"
-    }
-  },
-  {
     "title": "If I'm Breathing",
     "media": "If I'm Breathing",
     "url": "https://www.youtube.com/watch?v=2o7ef6BqSsU",
@@ -1352,18 +1040,6 @@
       "console": "Sam Bowman",
       "series": "single",
       "game": "If I'm Breathing",
-      "game-genre": "Pop"
-    }
-  },
-  {
-    "title": "LANCELOT",
-    "media": "LANCELOT",
-    "url": "https://www.youtube.com/watch?v=wsaAi8WyRRI",
-    "tags": {
-      "year": 2025,
-      "console": "Sam Bowman",
-      "series": "single",
-      "game": "LANCELOT",
       "game-genre": "Pop"
     }
   },
@@ -1380,67 +1056,7 @@
     }
   },
   {
-    "title": "PANDORA'S BOX",
-    "media": "PANDORA'S BOX",
-    "url": "https://www.youtube.com/watch?v=F4os3olBL3w",
-    "tags": {
-      "year": 2025,
-      "console": "Sam Bowman",
-      "series": "single",
-      "game": "PANDORA'S BOX",
-      "game-genre": "Pop"
-    }
-  },
-  {
-    "title": "SUNDIAL KING",
-    "media": "SUNDIAL KING",
-    "url": "https://www.youtube.com/watch?v=mm6Zf14zhX4",
-    "tags": {
-      "year": 2025,
-      "console": "Sam Bowman",
-      "series": "single",
-      "game": "SUNDIAL KING",
-      "game-genre": "Pop"
-    }
-  },
-  {
-    "title": "TITAN",
-    "media": "TITAN",
-    "url": "https://www.youtube.com/watch?v=-CNKOGA6OiQ",
-    "tags": {
-      "year": 2025,
-      "console": "Sam Bowman",
-      "series": "single",
-      "game": "TITAN",
-      "game-genre": "Pop"
-    }
-  },
-  {
-    "title": "WE'RE NOT REALLY STRANGERS",
-    "media": "WE'RE NOT REALLY STRANGERS",
-    "url": "https://www.youtube.com/watch?v=3j3fRsOP0ww",
-    "tags": {
-      "year": 2025,
-      "console": "Sam Bowman",
-      "series": "single",
-      "game": "WE'RE NOT REALLY STRANGERS",
-      "game-genre": "Pop"
-    }
-  },
-  {
     "title": "Waiting Room",
-    "media": "Waiting Room",
-    "url": "https://www.youtube.com/watch?v=6ptnGYY-O34",
-    "tags": {
-      "year": 2025,
-      "console": "Chris Howland",
-      "series": "single",
-      "game": "Waiting Room",
-      "game-genre": "Pop"
-    }
-  },
-  {
-    "title": "Waiting Room - Acapella",
     "media": "Waiting Room",
     "url": "https://www.youtube.com/watch?v=6ptnGYY-O34",
     "tags": {
