@@ -99,10 +99,32 @@ async function share() {
 setInterval(()=>{
   const timer = document.getElementById("timer");
 
-  const tommorowDateFull = new Date(new Date().getTime() + 24 * 60 * 60 * 1000);
-  const tommorowDateMidnight = new Date(tommorowDateFull.getFullYear(), tommorowDateFull.getMonth(), tommorowDateFull.getDate(), 0, 0, 0, 0);
+  // Get current time and tomorrow's date in Central Time
+  const now = new Date();
+  const fmt = new Intl.DateTimeFormat('en-US', { timeZone: 'America/Chicago', year: 'numeric', month: 'numeric', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: false });
+  
+  // Get tomorrow in CT by adding 24 hours and getting the date parts
+  const tomorrow = new Date(now.getTime() + 24 * 60 * 60 * 1000);
+  const partsTomorrow = fmt.formatToParts(tomorrow).reduce((acc: Record<string, string>, p) => { acc[p.type] = p.value; return acc; }, {});
+  
+  // Construct midnight tomorrow in CT as a UTC timestamp
+  const tomorrowMidnightCTUtc = Date.UTC(Number(partsTomorrow.year), Number(partsTomorrow.month) - 1, Number(partsTomorrow.day), 6, 0, 0, 0); // CT is UTC-6 (CST) or UTC-5 (CDT)
+  
+  // To get the correct offset, we need to create a date at midnight CT and check its UTC equivalent
+  // Create a formatter that gives us the time components in CT
+  const fmtTime = new Intl.DateTimeFormat('en-US', { timeZone: 'America/Chicago', year: 'numeric', month: 'numeric', day: 'numeric', hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: false });
+  const partsNowCT = fmtTime.formatToParts(now).reduce((acc: Record<string, string>, p) => { acc[p.type] = p.value; return acc; }, {});
+  
+  // Calculate the next midnight in Central Time
+  const nowInCTUtc = Date.UTC(Number(partsNowCT.year), Number(partsNowCT.month) - 1, Number(partsNowCT.day), Number(partsNowCT.hour), Number(partsNowCT.minute), Number(partsNowCT.second));
+  const todayMidnightCTUtc = Date.UTC(Number(partsNowCT.year), Number(partsNowCT.month) - 1, Number(partsNowCT.day), 0, 0, 0, 0);
+  const tomorrowMidnightCTUtc2 = todayMidnightCTUtc + 24 * 60 * 60 * 1000;
+  
+  // Calculate offset between now in CT and now in UTC
+  const offsetMs = now.getTime() - nowInCTUtc;
+  const nextMidnightCT = tomorrowMidnightCTUtc2 + offsetMs;
 
-  const timeBetween = tommorowDateMidnight.getTime() - new Date().getTime();
+  const timeBetween = nextMidnightCT - now.getTime();
 
   let timeBetweenInSecond = Math.floor(timeBetween/1000)
 
