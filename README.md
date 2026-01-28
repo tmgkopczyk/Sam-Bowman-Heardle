@@ -1,29 +1,24 @@
 # Sam Bowman Heardle
-A fork of [Heardle-Base](https://github.com/s4pph1r3-dev/Heardle-Base) updated/changed to feature Sam Bowman's music
 
-## Updates/Changes Made
-- Features Sam Bowman's music
-- Improved/Fixed the share button at the end of the game
-- Updated UI: font, song player bars, background color, YouTube link
-- Added album art scraper and display
-- Added Stats functionality
-- Changed music.json to be more suited for mainstream music
-- Removed: hints, volume slider
+A fork of [Heardle-Base](https://github.com/s4pph1r3-dev/Heardle-Base) customized for Sam Bowman's music.
 
-## Project Setup
+📖 **[View Full Documentation](docs/README.md)**
 
-```sh
+## Quick Start
+
+```bash
+# Install dependencies
 npm install
-```
 
-### Compile and Hot-Reload for Development
+# Download audio files
+python tools/download_audio.py
 
-```sh
+# Start development server
 npm run dev
 ```
 
-### Compile and Minify for Production
+## Documentation
 
-```sh
-npm run build
-```
+- **[Complete Setup Guide](docs/SETUP.md)** - Full setup, audio download, and deployment instructions
+- **[Main Documentation](docs/README.md)** - Features, project structure, and development info
+

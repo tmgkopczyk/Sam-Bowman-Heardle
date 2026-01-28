@@ -1,6 +1,6 @@
 {
-  "name": "heardle-base",
-  "version": "0.0.0",
+  "name": "sam-bowman-heardle",
+  "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {

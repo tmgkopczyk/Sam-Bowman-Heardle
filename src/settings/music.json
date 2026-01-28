@@ -3,528 +3,616 @@
     "title": "Ashes",
     "url": "https://www.youtube.com/watch?v=hyDJK5XCp6Q",
     "art": "https://cdn-images.dzcdn.net/images/cover/fcab396222642bad0db02bcb4c08a8c1/250x250-000000-80-0-0.jpg",
-    "album": "Children of the Burning Heart"
+    "album": "Children of the Burning Heart",
+    "id": "ashes"
   },
   {
     "title": "Cloudburst (Xander Sallows Remix)",
     "url": "https://www.youtube.com/watch?v=ksX_ClqqpQs",
     "art": "https://cdn-images.dzcdn.net/images/cover/a27e46df630e59e59bf7a5c9435c4f65/250x250-000000-80-0-0.jpg",
-    "album": "Children of the Burning Heart"
+    "album": "Children of the Burning Heart",
+    "id": "cloudburst-xander-sallows-remix"
   },
   {
     "title": "Deep Sleep (Interlude)",
     "url": "https://www.youtube.com/watch?v=NrLc5juIZ3U",
     "art": "https://cdn-images.dzcdn.net/images/cover/a27e46df630e59e59bf7a5c9435c4f65/250x250-000000-80-0-0.jpg",
-    "album": "Children of the Burning Heart"
+    "album": "Children of the Burning Heart",
+    "id": "deep-sleep-interlude"
   },
   {
     "title": "Doxology",
     "url": "https://www.youtube.com/watch?v=yIPqML0Tba8",
     "art": "https://cdn-images.dzcdn.net/images/cover/a27e46df630e59e59bf7a5c9435c4f65/250x250-000000-80-0-0.jpg",
-    "album": "Children of the Burning Heart"
+    "album": "Children of the Burning Heart",
+    "id": "doxology"
   },
   {
     "title": "Feel Lonely",
     "url": "https://www.youtube.com/watch?v=2T_XPkvAIQw",
     "art": "https://cdn-images.dzcdn.net/images/cover/69ad60e0f9a6441eb4b6987a9c9207c7/250x250-000000-80-0-0.jpg",
-    "album": "Children of the Burning Heart"
+    "album": "Children of the Burning Heart",
+    "id": "feel-lonely"
   },
   {
     "title": "Feel Lonely (Matthew Parker Remix)",
     "url": "https://www.youtube.com/watch?v=JwFX742-hD8",
     "art": "https://cdn-images.dzcdn.net/images/cover/50dc557350fedc98b7b15c6a904095ee/250x250-000000-80-0-0.jpg",
-    "album": "Children of the Burning Heart"
+    "album": "Children of the Burning Heart",
+    "id": "feel-lonely-matthew-parker-remix"
   },
   {
     "title": "Head Above Water",
     "url": "https://www.youtube.com/watch?v=pcZR3HhS3hM",
     "art": "https://cdn-images.dzcdn.net/images/cover/a27e46df630e59e59bf7a5c9435c4f65/250x250-000000-80-0-0.jpg",
-    "album": "Children of the Burning Heart"
+    "album": "Children of the Burning Heart",
+    "id": "head-above-water"
   },
   {
     "title": "Hideaway (Interlude)",
     "url": "https://www.youtube.com/watch?v=xQIMecweJTU",
     "art": "https://cdn-images.dzcdn.net/images/cover/a27e46df630e59e59bf7a5c9435c4f65/250x250-000000-80-0-0.jpg",
-    "album": "Children of the Burning Heart"
+    "album": "Children of the Burning Heart",
+    "id": "hideaway-interlude"
   },
   {
     "title": "Icarus",
     "url": "https://www.youtube.com/watch?v=-3-46tSs9C0",
     "art": "https://cdn-images.dzcdn.net/images/cover/9bbab49d7354dd6724e94911bb59a017/250x250-000000-80-0-0.jpg",
-    "album": "Children of the Burning Heart"
+    "album": "Children of the Burning Heart",
+    "id": "icarus"
   },
   {
     "title": "Miss You",
     "url": "https://www.youtube.com/watch?v=YgmDK9l6H-4",
     "art": "https://cdn-images.dzcdn.net/images/cover/c67532afc8924ec668729d8ce77701fe/250x250-000000-80-0-0.jpg",
-    "album": "Children of the Burning Heart"
+    "album": "Children of the Burning Heart",
+    "id": "miss-you"
   },
   {
     "title": "Smoke",
     "url": "https://www.youtube.com/watch?v=iRLnlCbolR4",
     "art": "https://cdn-images.dzcdn.net/images/cover/a27e46df630e59e59bf7a5c9435c4f65/250x250-000000-80-0-0.jpg",
-    "album": "Children of the Burning Heart"
+    "album": "Children of the Burning Heart",
+    "id": "smoke"
   },
   {
     "title": "Until Tomorrow",
     "url": "https://www.youtube.com/watch?v=tBS0om3rvoY",
     "art": "https://cdn-images.dzcdn.net/images/cover/a27e46df630e59e59bf7a5c9435c4f65/250x250-000000-80-0-0.jpg",
-    "album": "Children of the Burning Heart"
+    "album": "Children of the Burning Heart",
+    "id": "until-tomorrow"
   },
   {
     "title": "Welcome to Daylight",
     "url": "https://www.youtube.com/watch?v=r-lIrscyEpc",
     "art": "https://cdn-images.dzcdn.net/images/cover/a27e46df630e59e59bf7a5c9435c4f65/250x250-000000-80-0-0.jpg",
-    "album": "Children of the Burning Heart"
+    "album": "Children of the Burning Heart",
+    "id": "welcome-to-daylight"
   },
   {
     "title": "When All of This Is Over",
     "url": "https://www.youtube.com/watch?v=MSDPdrE69wU",
     "art": "https://cdn-images.dzcdn.net/images/cover/a27e46df630e59e59bf7a5c9435c4f65/250x250-000000-80-0-0.jpg",
-    "album": "Children of the Burning Heart"
+    "album": "Children of the Burning Heart",
+    "id": "when-all-of-this-is-over"
   },
   {
     "title": "Wings",
     "url": "https://www.youtube.com/watch?v=n5GwdVTdHqA",
     "art": "https://cdn-images.dzcdn.net/images/cover/a27e46df630e59e59bf7a5c9435c4f65/250x250-000000-80-0-0.jpg",
-    "album": "Children of the Burning Heart"
+    "album": "Children of the Burning Heart",
+    "id": "wings"
   },
   {
     "title": "CRESCERE",
     "url": "https://www.youtube.com/watch?v=QKJWMTTeF8w",
     "art": "https://cdn-images.dzcdn.net/images/cover/fdffbe04828242efd84f76e6e1f8e65e/250x250-000000-80-0-0.jpg",
-    "album": "Atlas"
+    "album": "Atlas",
+    "id": "crescere"
   },
   {
     "title": "DO THE NEXT THING",
     "url": "https://www.youtube.com/watch?v=_0-GgjLKwgs",
     "art": "https://cdn-images.dzcdn.net/images/cover/4343dcb2e8f3d8858ec0ac6255f021d3/250x250-000000-80-0-0.jpg",
-    "album": "Atlas"
+    "album": "Atlas",
+    "id": "do-the-next-thing"
   },
   {
     "title": "ECLIPSE YOU",
     "url": "https://www.youtube.com/watch?v=Ci7aZFAqaak",
     "art": "https://cdn-images.dzcdn.net/images/cover/29c4b72ae526423975a30d45ccf7b232/250x250-000000-80-0-0.jpg",
-    "album": "Atlas"
+    "album": "Atlas",
+    "id": "eclipse-you"
   },
   {
     "title": "FLYING DUTCHMAN",
     "url": "https://www.youtube.com/watch?v=dJVvKKxPp-s",
     "art": "https://cdn-images.dzcdn.net/images/cover/e8d25cb02b30f0f498b6efaa1d966b7e/250x250-000000-80-0-0.jpg",
-    "album": "Atlas"
+    "album": "Atlas",
+    "id": "flying-dutchman"
   },
   {
     "title": "GODS OF DAMASCUS",
     "url": "https://www.youtube.com/watch?v=NmJnZD5U0uw",
     "art": "https://cdn-images.dzcdn.net/images/cover/29c4b72ae526423975a30d45ccf7b232/250x250-000000-80-0-0.jpg",
-    "album": "Atlas"
+    "album": "Atlas",
+    "id": "gods-of-damascus"
   },
   {
     "title": "GRAVITY",
     "url": "https://www.youtube.com/watch?v=DZ9O_w3ptYU",
     "art": "https://cdn-images.dzcdn.net/images/cover/29c4b72ae526423975a30d45ccf7b232/250x250-000000-80-0-0.jpg",
-    "album": "Atlas"
+    "album": "Atlas",
+    "id": "gravity"
   },
   {
     "title": "HOW FIRM A FOUNDATION",
     "url": "https://www.youtube.com/watch?v=t3PlNwpIeB4",
     "art": "https://cdn-images.dzcdn.net/images/cover/29c4b72ae526423975a30d45ccf7b232/250x250-000000-80-0-0.jpg",
-    "album": "Atlas"
+    "album": "Atlas",
+    "id": "how-firm-a-foundation"
   },
   {
     "title": "INERTIA",
     "url": "https://www.youtube.com/watch?v=RtCRcOr94e0",
     "art": "https://cdn-images.dzcdn.net/images/cover/099aee03d9b4cb57ef59a58e61a3d662/250x250-000000-80-0-0.jpg",
-    "album": "Atlas"
+    "album": "Atlas",
+    "id": "inertia"
   },
   {
     "title": "nobody",
     "url": "https://www.youtube.com/watch?v=kuvXojvbbzo",
     "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/08/cf/ae/08cfae44-e2de-00b9-fba0-1a57a7543c9f/5059805552103_cover.jpg/250x250bb.webp",
-    "album": "Young Pop Renegades 2021: Origin"
+    "album": "Young Pop Renegades 2021: Origin",
+    "id": "nobody"
   },
   {
     "title": "LANCELOT",
     "url": "https://www.youtube.com/watch?v=wsaAi8WyRRI",
     "art": "https://cdn-images.dzcdn.net/images/cover/2d5b24f4237347720b7c6b882be53442/250x250-000000-80-0-0.jpg",
-    "album": "Atlas"
+    "album": "Atlas",
+    "id": "lancelot"
   },
   {
     "title": "LEGEND OF ATLAS",
     "url": "https://www.youtube.com/watch?v=XCLbAhhvsDE",
     "art": "https://cdn-images.dzcdn.net/images/cover/29c4b72ae526423975a30d45ccf7b232/250x250-000000-80-0-0.jpg",
-    "album": "Atlas"
+    "album": "Atlas",
+    "id": "legend-of-atlas"
   },
   {
     "title": "MAYFLY",
     "url": "https://www.youtube.com/watch?v=SANWXdFgqQs",
     "art": "https://cdn-images.dzcdn.net/images/cover/29c4b72ae526423975a30d45ccf7b232/250x250-000000-80-0-0.jpg",
-    "album": "Atlas"
+    "album": "Atlas",
+    "id": "mayfly"
   },
   {
     "title": "PANDORA'S BOX",
     "url": "https://www.youtube.com/watch?v=F4os3olBL3w",
     "art": "https://cdn-images.dzcdn.net/images/cover/29c4b72ae526423975a30d45ccf7b232/250x250-000000-80-0-0.jpg",
-    "album": "Atlas"
+    "album": "Atlas",
+    "id": "pandoras-box"
   },
   {
     "title": "PERSEPHONE",
     "url": "https://www.youtube.com/watch?v=XJ9MOXT4Pg8",
     "art": "https://cdn-images.dzcdn.net/images/cover/29c4b72ae526423975a30d45ccf7b232/250x250-000000-80-0-0.jpg",
-    "album": "Atlas"
+    "album": "Atlas",
+    "id": "persephone"
   },
   {
     "title": "PETRICHOR / CIRCLES",
     "url": "https://www.youtube.com/watch?v=SyeSJLnMiFM",
     "art": "https://cdn-images.dzcdn.net/images/cover/29c4b72ae526423975a30d45ccf7b232/250x250-000000-80-0-0.jpg",
-    "album": "Atlas"
+    "album": "Atlas",
+    "id": "petrichor-circles"
   },
   {
     "title": "SUNDIAL KING",
     "url": "https://www.youtube.com/watch?v=OK6QYe8QoZk",
     "art": "https://cdn-images.dzcdn.net/images/cover/73df1ab833896dcaf84aa6e96db8166c/250x250-000000-80-0-0.jpg",
-    "album": "Atlas"
+    "album": "Atlas",
+    "id": "sundial-king"
   },
   {
     "title": "TAILSPIN / INTERROBANG?!",
     "url": "https://www.youtube.com/watch?v=mOi_ayslXPw",
     "art": "https://cdn-images.dzcdn.net/images/cover/29c4b72ae526423975a30d45ccf7b232/250x250-000000-80-0-0.jpg",
-    "album": "Atlas"
+    "album": "Atlas",
+    "id": "tailspin-interrobang"
   },
   {
     "title": "TITAN",
     "url": "https://www.youtube.com/watch?v=-CNKOGA6OiQ&t=7s",
     "art": "https://cdn-images.dzcdn.net/images/cover/27259e674e7cbba96056a25d2d8f5bac/250x250-000000-80-0-0.jpg",
-    "album": "Atlas"
+    "album": "Atlas",
+    "id": "titan"
   },
   {
     "title": "UNDERSUN",
     "url": "https://www.youtube.com/watch?v=3Slr0Q_0MaU",
     "art": "https://cdn-images.dzcdn.net/images/cover/29c4b72ae526423975a30d45ccf7b232/250x250-000000-80-0-0.jpg",
-    "album": "Atlas"
+    "album": "Atlas",
+    "id": "undersun"
   },
   {
     "title": "WE'RE NOT REALLY STRANGERS",
     "url": "https://www.youtube.com/watch?v=7dumJLZ6Xsc",
     "art": "https://cdn-images.dzcdn.net/images/cover/d46f154a0df27282af81d11217d5792b/250x250-000000-80-0-0.jpg",
-    "album": "Atlas"
+    "album": "Atlas",
+    "id": "were-not-really-strangers"
   },
   {
     "title": "a ghost story",
     "url": "https://www.youtube.com/watch?v=dMmxbbDcqxs",
     "art": "https://cdn-images.dzcdn.net/images/cover/58fd2db783301a9b227169f5482db07c/250x250-000000-80-0-0.jpg",
-    "album": "Ghost"
+    "album": "Ghost",
+    "id": "a-ghost-story"
   },
   {
     "title": "can you hear them",
     "url": "https://www.youtube.com/watch?v=-JZQ3CWghKw",
     "art": "https://cdn-images.dzcdn.net/images/cover/58fd2db783301a9b227169f5482db07c/250x250-000000-80-0-0.jpg",
-    "album": "Ghost"
+    "album": "Ghost",
+    "id": "can-you-hear-them"
   },
   {
     "title": "garden king",
     "url": "https://www.youtube.com/watch?v=zigsZZagrU0",
     "art": "https://cdn-images.dzcdn.net/images/cover/dd836c74830649ac18d9a7fcfba7e4b2/250x250-000000-80-0-0.jpg",
-    "album": "Ghost"
+    "album": "Ghost",
+    "id": "garden-king"
   },
   {
     "title": "hero",
     "url": "https://www.youtube.com/watch?v=QnKRK5HUjJQ",
     "art": "https://cdn-images.dzcdn.net/images/cover/3b5a9d3da3c9f5d190f36220a35d7717/250x250-000000-80-0-0.jpg",
-    "album": "Ghost"
+    "album": "Ghost",
+    "id": "hero"
   },
   {
     "title": "i ain't worried about a thing",
     "url": "https://www.youtube.com/watch?v=DEKPgd0oTCI",
     "art": "https://cdn-images.dzcdn.net/images/cover/87f0c5eb8407f71d99fe1d081c1da1e9/250x250-000000-80-0-0.jpg",
-    "album": "Ghost"
+    "album": "Ghost",
+    "id": "i-aint-worried-about-a-thing"
   },
   {
     "title": "let all mortal flesh keep silence",
     "url": "https://www.youtube.com/watch?v=1h1hnCaktkA",
     "art": "https://cdn-images.dzcdn.net/images/cover/75e749db8a4c5c8dc6f821f5c208db1a/250x250-000000-80-0-0.jpg",
-    "album": "Ghost"
+    "album": "Ghost",
+    "id": "let-all-mortal-flesh-keep-silence"
   },
   {
     "title": "pantego",
     "url": "https://www.youtube.com/watch?v=Loh3NfRHcDo",
     "art": "https://cdn-images.dzcdn.net/images/cover/58fd2db783301a9b227169f5482db07c/250x250-000000-80-0-0.jpg",
-    "album": "Ghost"
+    "album": "Ghost",
+    "id": "pantego"
   },
   {
     "title": "rose-colored glasses",
     "url": "https://www.youtube.com/watch?v=mJEZtbroSlc",
     "art": "https://cdn-images.dzcdn.net/images/cover/ac5677b34ddff8f4c1c6ccf62fea1232/250x250-000000-80-0-0.jpg",
-    "album": "Ghost"
+    "album": "Ghost",
+    "id": "rose-colored-glasses"
   },
   {
     "title": "still burning",
     "url": "https://www.youtube.com/watch?v=sGY2q8bs25g",
     "art": "https://cdn-images.dzcdn.net/images/cover/58fd2db783301a9b227169f5482db07c/250x250-000000-80-0-0.jpg",
-    "album": "Ghost"
+    "album": "Ghost",
+    "id": "still-burning"
   },
   {
     "title": "vagabond",
     "url": "https://www.youtube.com/watch?v=2MVkJjM4APQ",
     "art": "https://cdn-images.dzcdn.net/images/cover/58fd2db783301a9b227169f5482db07c/250x250-000000-80-0-0.jpg",
-    "album": "Ghost"
+    "album": "Ghost",
+    "id": "vagabond"
   },
   {
     "title": "vintage vice",
     "url": "https://www.youtube.com/watch?v=d_nCe04GSN4",
     "art": "https://cdn-images.dzcdn.net/images/cover/2771be9fb1b9fa731a4b18df651d8087/250x250-000000-80-0-0.jpg",
-    "album": "Ghost"
+    "album": "Ghost",
+    "id": "vintage-vice"
   },
   {
     "title": "whisper",
     "url": "https://www.youtube.com/watch?v=_P47Diq3e1w",
     "art": "https://cdn-images.dzcdn.net/images/cover/731623382ff0d59352c5f6fa6f6df516/250x250-000000-80-0-0.jpg",
-    "album": "Ghost"
+    "album": "Ghost",
+    "id": "whisper"
   },
   {
     "title": "whisper (Matthew Parker Remix)",
     "url": "https://www.youtube.com/watch?v=otq5m35Jld4",
     "art": "https://cdn-images.dzcdn.net/images/cover/7acdfc30e367ca7861d58006757e51af/250x250-000000-80-0-0.jpg",
-    "album": "Ghost"
+    "album": "Ghost",
+    "id": "whisper-matthew-parker-remix"
   },
   {
     "title": "whoosh",
     "url": "https://www.youtube.com/watch?v=c5P8zyKCoVY",
     "art": "https://cdn-images.dzcdn.net/images/cover/f6453e6a8c03c8d0f1bb873c0b0239bb/250x250-000000-80-0-0.jpg",
-    "album": "Ghost"
+    "album": "Ghost",
+    "id": "whoosh"
   },
   {
     "title": "wisteria",
     "url": "https://www.youtube.com/watch?v=U7_6QgGZpzw",
     "art": "https://cdn-images.dzcdn.net/images/cover/0e970647a8931ca33ac270803da59a0f/250x250-000000-80-0-0.jpg",
-    "album": "Ghost"
+    "album": "Ghost",
+    "id": "wisteria"
   },
   {
     "title": "Daydream",
     "url": "https://www.youtube.com/watch?v=91KGSnwn7sQ",
     "art": "https://cdn-images.dzcdn.net/images/cover/5acd709a59af25f8c8c5b1987e1c337d/250x250-000000-80-0-0.jpg",
-    "album": "fake strong"
+    "album": "fake strong",
+    "id": "daydream"
   },
   {
     "title": "Daydream (Blanket Fort Version)",
     "url": "https://www.youtube.com/watch?v=hB6sBaMlWc4",
     "art": "https://cdn-images.dzcdn.net/images/cover/6bb47beafc80c110edebabb99c63c622/250x250-000000-80-0-0.jpg",
-    "album": "fake strong"
+    "album": "fake strong",
+    "id": "daydream-blanket-fort-version"
   },
   {
     "title": "Someone (Matias Ruiz Remix)",
     "url": "https://www.youtube.com/watch?v=CR5i7GlzEIk",
     "art": "https://cdn-images.dzcdn.net/images/cover/6bb47beafc80c110edebabb99c63c622/250x250-000000-80-0-0.jpg",
-    "album": "fake strong"
+    "album": "fake strong",
+    "id": "someone-matias-ruiz-remix"
   },
   {
     "title": "Who's That Guy?",
     "url": "https://www.youtube.com/watch?v=G9htETiJOoU",
     "art": "https://cdn-images.dzcdn.net/images/cover/6bb47beafc80c110edebabb99c63c622/250x250-000000-80-0-0.jpg",
-    "album": "fake strong"
+    "album": "fake strong",
+    "id": "whos-that-guy"
   },
   {
     "title": "fake strong",
-    "url": "https://www.youtube.com/watch?v=IgDoiWL105Y",
+    "url": "https://www.youtube.com/watch?v=jwtXQ--pwHo",
     "art": "https://cdn-images.dzcdn.net/images/cover/6bb47beafc80c110edebabb99c63c622/250x250-000000-80-0-0.jpg",
-    "album": "fake strong"
+    "album": "fake strong",
+    "id": "fake-strong"
   },
   {
     "title": "someone",
     "url": "https://www.youtube.com/watch?v=SOUo8msF0rU",
     "art": "https://cdn-images.dzcdn.net/images/cover/6bb47beafc80c110edebabb99c63c622/250x250-000000-80-0-0.jpg",
-    "album": "fake strong"
+    "album": "fake strong",
+    "id": "someone"
   },
   {
     "title": "i ain't worried (Nitro X Remix)",
     "url": "https://www.youtube.com/watch?v=8rRQBb-LEgY",
     "art": "https://cdn-images.dzcdn.net/images/cover/6d35687a9b596c71c853533334e6f689/250x250-000000-80-0-0.jpg",
-    "album": "Of Fire and Phantoms (The Remixes)"
+    "album": "Of Fire and Phantoms (The Remixes)",
+    "id": "i-aint-worried-nitro-x-remix"
   },
   {
     "title": "icarus (phantom version)",
     "url": "https://www.youtube.com/watch?v=8Gq8Uq3cruA",
     "art": "https://cdn-images.dzcdn.net/images/cover/04518306071f74655ee5ff62a43bb803/250x250-000000-80-0-0.jpg",
-    "album": "Of Fire and Phantoms (The Remixes)"
+    "album": "Of Fire and Phantoms (The Remixes)",
+    "id": "icarus-phantom-version"
   },
   {
     "title": "let all mortal flesh keep silence (BYG86 Remix)",
     "url": "https://www.youtube.com/watch?v=ER5ctbUqYGg",
     "art": "https://cdn-images.dzcdn.net/images/cover/09a6c1866547cba84c6b0a0b76506c56/250x250-000000-80-0-0.jpg",
-    "album": "Of Fire and Phantoms (The Remixes)"
+    "album": "Of Fire and Phantoms (The Remixes)",
+    "id": "let-all-mortal-flesh-keep-silence-byg86-remix"
   },
   {
     "title": "pantego (Matias Ruiz Remix)",
     "url": "https://www.youtube.com/watch?v=PJjQxn_oeeE",
     "art": "https://cdn-images.dzcdn.net/images/cover/09a6c1866547cba84c6b0a0b76506c56/250x250-000000-80-0-0.jpg",
-    "album": "Of Fire and Phantoms (The Remixes)"
+    "album": "Of Fire and Phantoms (The Remixes)",
+    "id": "pantego-matias-ruiz-remix"
   },
   {
     "title": "smoke (phantom version)",
     "url": "https://www.youtube.com/watch?v=j3hV_XHOpkE",
     "art": "https://cdn-images.dzcdn.net/images/cover/78c067e7c5320e9d92a184e58a2b818f/250x250-000000-80-0-0.jpg",
-    "album": "Of Fire and Phantoms (The Remixes)"
+    "album": "Of Fire and Phantoms (The Remixes)",
+    "id": "smoke-phantom-version"
   },
   {
     "title": "whisper (BOUE Remix)",
     "url": "https://www.youtube.com/watch?v=Ndv1_juBz8k",
     "art": "https://cdn-images.dzcdn.net/images/cover/d4246eedf53cc516c50136ad51c26dc8/250x250-000000-80-0-0.jpg",
-    "album": "Of Fire and Phantoms (The Remixes)"
+    "album": "Of Fire and Phantoms (The Remixes)",
+    "id": "whisper-boue-remix"
   },
   {
     "title": "Crowley",
     "url": "https://www.youtube.com/watch?v=fszmIzs3-T0",
     "art": "https://cdn-images.dzcdn.net/images/cover/90d222547306ba75470324c1d50bc150/250x250-000000-80-0-0.jpg",
-    "album": "Legend of Max"
+    "album": "Legend of Max",
+    "id": "crowley"
   },
   {
     "title": "Daybreaker",
     "url": "https://www.youtube.com/watch?v=7mdF2FwR0p4",
     "art": "https://cdn-images.dzcdn.net/images/cover/90d222547306ba75470324c1d50bc150/250x250-000000-80-0-0.jpg",
-    "album": "Legend of Max"
+    "album": "Legend of Max",
+    "id": "daybreaker"
   },
   {
     "title": "El Dorado",
     "url": "https://www.youtube.com/watch?v=luUMERthkN0",
     "art": "https://cdn-images.dzcdn.net/images/cover/90d222547306ba75470324c1d50bc150/250x250-000000-80-0-0.jpg",
-    "album": "Legend of Max"
+    "album": "Legend of Max",
+    "id": "el-dorado"
   },
   {
     "title": "Oh Wonder",
     "url": "https://www.youtube.com/watch?v=8JPFxUYl6XE",
     "art": "https://cdn-images.dzcdn.net/images/cover/90d222547306ba75470324c1d50bc150/250x250-000000-80-0-0.jpg",
-    "album": "Legend of Max"
+    "album": "Legend of Max",
+    "id": "oh-wonder"
   },
   {
     "title": "Sonho Alto (Remix)",
     "url": "https://www.youtube.com/watch?v=2MBVBwvw07w",
     "art": "https://cdn-images.dzcdn.net/images/cover/b18ae88401f682df4518935a967eef20/250x250-000000-80-0-0.jpg",
-    "album": "Single"
+    "album": "Single",
+    "id": "sonho-alto-remix"
   },
   {
     "title": "The Breath of Heaven",
     "url": "https://www.youtube.com/watch?v=RwKW4jW1BMo",
     "art": "https://cdn-images.dzcdn.net/images/cover/1f058ff1d0577b4f908f23c909609419/250x250-000000-80-0-0.jpg",
-    "album": "Single"
+    "album": "Single",
+    "id": "the-breath-of-heaven"
   },
   {
     "title": "Don't Need Perfect (Remix)",
     "url": "https://www.youtube.com/watch?v=OEydsmexIOs",
     "art": "https://cdn-images.dzcdn.net/images/cover/904b57e1962b1142a7202c5a73434ad3/250x250-000000-80-0-0.jpg",
-    "album": "Single"
+    "album": "Single",
+    "id": "dont-need-perfect-remix"
   },
   {
     "title": "Broken Clarity (Sam Bowman Remix)",
     "url": "https://www.youtube.com/watch?v=ZeMy2gVYolc",
     "art": "https://cdn-images.dzcdn.net/images/cover/716ed31f5eefc1527d4999b17d2caa9e/250x250-000000-80-0-0.jpg",
-    "album": "Single"
+    "album": "Single",
+    "id": "broken-clarity-sam-bowman-remix"
   },
   {
     "title": "Cloudburst",
     "url": "https://www.youtube.com/watch?v=l5e6UG6WpjA",
     "art": "https://cdn-images.dzcdn.net/images/cover/01a879d9b3cefb1b1a820309c84e3d5c/250x250-000000-80-0-0.jpg",
-    "album": "Single"
+    "album": "Single",
+    "id": "cloudburst"
   },
   {
     "title": "I GET THIS?",
     "url": "https://www.youtube.com/watch?v=upuQ5OwNJc8",
     "art": "https://cdn-images.dzcdn.net/images/cover/62e93d9ad346cec42a9cd7a614f076dd/250x250-000000-80-0-0.jpg",
-    "album": "Single"
+    "album": "Single",
+    "id": "i-get-this"
   },
   {
     "title": "Always Will Be",
     "url": "https://www.youtube.com/watch?v=68hXsJNTlz8",
     "art": "https://cdn-images.dzcdn.net/images/cover/debaf76ee1752b3595a460678f2504cd/250x250-000000-80-0-0.jpg",
-    "album": "Single"
+    "album": "Single",
+    "id": "always-will-be"
   },
   {
     "title": "Burn Like Embers (Re-Ignited)",
     "url": "https://www.youtube.com/watch?v=jadV7_SE51U",
     "art": "https://cdn-images.dzcdn.net/images/cover/be495e165ee4c39427c19ad106dcf781/250x250-000000-80-0-0.jpg",
-    "album": "Single"
+    "album": "Single",
+    "id": "burn-like-embers-re-ignited"
   },
   {
     "title": "Your Eyes",
     "url": "https://www.youtube.com/watch?v=hpDwsVv_wJk",
     "art": "https://cdn-images.dzcdn.net/images/cover/90d222547306ba75470324c1d50bc150/250x250-000000-80-0-0.jpg",
-    "album": "Legend of Max"
+    "album": "Legend of Max",
+    "id": "your-eyes"
   },
   {
     "title": "afraid of the dark (remix)",
     "url": "https://www.youtube.com/watch?v=gKkWV5EhUys",
     "art": "https://cdn-images.dzcdn.net/images/cover/bccfce2318e251fcefc1375586a83417/250x250-000000-80-0-0.jpg",
-    "album": "Single"
+    "album": "Single",
+    "id": "afraid-of-the-dark-remix"
   },
   {
     "title": "chaotic neutral",
     "url": "https://www.youtube.com/watch?v=vosTrza7uX4",
     "art": "https://cdn-images.dzcdn.net/images/cover/a6b3f324578fc1df5f5cb4d93e883c25/250x250-000000-80-0-0.jpg",
-    "album": "Young Pop Renegades, Vol. 2"
+    "album": "Young Pop Renegades, Vol. 2",
+    "id": "chaotic-neutral"
   },
   {
     "title": "headroom",
     "url": "https://www.youtube.com/watch?v=MTWNV-PavoM",
     "art": "https://cdn-images.dzcdn.net/images/cover/8d951c7d648a051c7207d1dd4f166c0e/250x250-000000-80-0-0.jpg",
-    "album": "Young Pop Renegades, Vol. 2"
+    "album": "Young Pop Renegades, Vol. 2",
+    "id": "headroom"
   },
   {
     "title": "slam the brakes!",
     "url": "https://www.youtube.com/watch?v=OMNkwd8Q8NE",
     "art": "https://cdn-images.dzcdn.net/images/cover/2ad18cd380b4af3cef3be36959dbbc10/250x250-000000-80-0-0.jpg",
-    "album": "Young Pop Renegades, Vol. 2"
+    "album": "Young Pop Renegades, Vol. 2",
+    "id": "slam-the-brakes"
   },
   {
     "title": "thanks",
     "url": "https://www.youtube.com/watch?v=J83pjO9y-yo",
     "art": "https://cdn-images.dzcdn.net/images/cover/13dbd481fb595b4892805f55185f9c45/250x250-000000-80-0-0.jpg",
-    "album": "Young Pop Renegades, Vol. 2"
+    "album": "Young Pop Renegades, Vol. 2",
+    "id": "thanks"
   },
   {
     "title": "Weatherboy",
     "url": "https://www.youtube.com/watch?v=yFFb9sBenyY",
     "art": "https://cdn-images.dzcdn.net/images/cover/7b358195ca62f5d68483bcc881b6c2ec/250x250-000000-80-0-0.jpg",
-    "album": "Single"
+    "album": "Single",
+    "id": "weatherboy"
   },
   {
     "title": "ride of my life",
     "url": "https://www.youtube.com/watch?v=7MPn8v8tP0w",
     "art": "https://cdn-images.dzcdn.net/images/cover/847f79143cdd439ae366a91e7c6a48b0/250x250-000000-80-0-0.jpg",
-    "album": "Single"
+    "album": "Single",
+    "id": "ride-of-my-life"
   },
   {
     "title": "My Father's World",
     "url": "https://www.youtube.com/watch?v=gTCeiKAyAtM",
     "art": "https://cdn-images.dzcdn.net/images/cover/d13a06e89d84334a8fb2cb5b0f0e09f7/250x250-000000-80-0-0.jpg",
-    "album": "Single"
+    "album": "Single",
+    "id": "my-fathers-world"
   },
   {
     "title": "Waiting Room",
     "url": "https://www.youtube.com/watch?v=vrKwj6i8IKg",
     "art": "https://cdn-images.dzcdn.net/images/cover/5f407705ed32bdc2cf82472da18c88a6/250x250-000000-80-0-0.jpg",
-    "album": "Single"
+    "album": "Single",
+    "id": "waiting-room"
   },
   {
     "title": "next to me",
     "url": "https://www.youtube.com/watch?v=pL-qlMKoh6w",
     "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/08/cf/ae/08cfae44-e2de-00b9-fba0-1a57a7543c9f/5059805552103_cover.jpg/250x250bb.webp",
-    "album": "Young Pop Renegades 2021: Origin"
+    "album": "Young Pop Renegades 2021: Origin",
+    "id": "next-to-me"
   },
   {
     "title": "summer was fun",
     "url": "https://www.youtube.com/watch?v=ugaqz7bIDOk",
     "art": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/08/cf/ae/08cfae44-e2de-00b9-fba0-1a57a7543c9f/5059805552103_cover.jpg/250x250bb.webp",
-    "album": "Young Pop Renegades 2021: Origin"
+    "album": "Young Pop Renegades 2021: Origin",
+    "id": "summer-was-fun"
   },
   {
     "title": "IS THIS WHAT IT MEANS TO BE ALIVE",
     "url": "https://www.youtube.com/watch?v=BXKzFb7NDYw",
     "art": "https://cdn-images.dzcdn.net/images/cover/29c4b72ae526423975a30d45ccf7b232/250x250-000000-80-0-0.jpg",
-    "album": "Atlas"
+    "album": "Atlas",
+    "id": "is-this-what-it-means-to-be-alive"
   },
   {
     "title": "WHOOSH (The Preacher's Version)",
     "url": "https://www.youtube.com/watch?v=bbYBgkmNcME",
     "art": "https://cdn-images.dzcdn.net/images/cover/f6453e6a8c03c8d0f1bb873c0b0239bb/250x250-000000-80-0-0.jpg",
-    "album": "Pickleball Song"
+    "album": "Pickleball Song",
+    "id": "whoosh-the-preachers-version"
   }
 ]

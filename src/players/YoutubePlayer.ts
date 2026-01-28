@@ -48,9 +48,12 @@ export class YoutubeMusicPlayer extends Player {
         // Create a looping silent audio element to control media session
         this.dummyAudio = new Audio();
         this.dummyAudio.loop = true;
-        this.dummyAudio.volume = 0;
-        // Use a data URL for a very short silent audio file
-        this.dummyAudio.src = 'data:audio/wav;base64,UklGRigAAABXQVZFZm10IBIAAAABAAEARKwAAIhYAQACABAAAABkYXRhAgAAAAEA';
+        this.dummyAudio.volume = 0.001; // Very low but not zero - iOS needs non-zero volume
+        // Use a longer silent audio file (1 second) for better iOS compatibility
+        this.dummyAudio.src = 'data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAIlYAAESsAAACABAAZGF0YQAAAAA=';
+        
+        // Important: set preload to ensure audio is ready
+        this.dummyAudio.preload = 'auto';
         
         // Start playing immediately (will work after user interaction)
         this.dummyAudio.play().catch(() => {
@@ -58,25 +61,17 @@ export class YoutubeMusicPlayer extends Player {
             console.log('Dummy audio autoplay blocked, will play on first interaction');
         });
         
-        // Set media session metadata for the dummy audio
-        if ('mediaSession' in navigator) {
-            const baseUrl = window.location.origin;
-            navigator.mediaSession.metadata = new MediaMetadata({
-                title: 'Chapstick for Glue',
-                artist: 'Sam Bowman',
-                album: '',
-                artwork: [
-                    { src: `${baseUrl}/favicon.ico`, sizes: '48x48', type: 'image/x-icon' },
-                    { src: `${baseUrl}/favicon.ico`, sizes: '96x96', type: 'image/x-icon' },
-                    { src: `${baseUrl}/favicon.ico`, sizes: '128x128', type: 'image/x-icon' },
-                    { src: `${baseUrl}/favicon.ico`, sizes: '256x256', type: 'image/x-icon' }
-                ]
-            });
-            
-            // Set dummy handlers to make media session active
-            navigator.mediaSession.setActionHandler('play', () => {});
-            navigator.mediaSession.setActionHandler('pause', () => {});
-        }
+        // Set media session metadata for the dummy audio with more aggressive iOS handling
+        this.updateMediaSession();
+        
+        // Continuously re-assert media session control (especially important for iOS)
+        // iOS can "steal" the media session when YT iframe plays, so we re-apply every 200ms
+        setInterval(() => {
+            if (this.dummyAudio.paused) {
+                this.dummyAudio.play().catch(() => {});
+            }
+            this.updateMediaSession();
+        }, 200);
 
         window.setInterval(()=>{
             this.p.getPlayerState().then((state)=>{
@@ -117,20 +112,71 @@ export class YoutubeMusicPlayer extends Player {
         this.p.setVolume(this.Volume)
     }
 
+    // Helper method to set/update media session metadata
+    // Called repeatedly to fight iOS stealing media session control
+    private updateMediaSession(): void {
+        if ('mediaSession' in navigator) {
+            const baseUrl = window.location.origin;
+            navigator.mediaSession.metadata = new MediaMetadata({
+                title: 'Sam Bowman Heardle',
+                artist: 'Guess the song!',
+                album: 'Music Quiz Game',
+                artwork: [
+                    { src: `${baseUrl}/favicon.ico`, sizes: '48x48', type: 'image/x-icon' },
+                    { src: `${baseUrl}/favicon.ico`, sizes: '96x96', type: 'image/x-icon' },
+                    { src: `${baseUrl}/favicon.ico`, sizes: '128x128', type: 'image/x-icon' },
+                    { src: `${baseUrl}/favicon.ico`, sizes: '256x256', type: 'image/x-icon' }
+                ]
+            });
+            
+            // Set action handlers - these keep media session "claimed" by our dummy audio
+            navigator.mediaSession.setActionHandler('play', () => {
+                this.dummyAudio.play().catch(() => {});
+            });
+            navigator.mediaSession.setActionHandler('pause', () => {
+                // Don't actually pause - keep it running
+            });
+            navigator.mediaSession.setActionHandler('seekbackward', null);
+            navigator.mediaSession.setActionHandler('seekforward', null);
+            navigator.mediaSession.setActionHandler('previoustrack', null);
+            navigator.mediaSession.setActionHandler('nexttrack', null);
+        }
+    }
+
     override PlayMusicUntilEnd(started_callback: () => void | null, finished_callback: () => void | null): void
     {
+        // Ensure dummy audio is playing before starting YT (critical for iOS)
         this.dummyAudio.play().catch(e => console.log('Dummy audio play failed:', e));
+        
+        // Re-assert media session right before playback
+        this.updateMediaSession();
+        
         if(started_callback != null) started_callback();
         this.p.seekTo(this.startSeconds, true);
-        this.p.playVideo();
+        
+        // Mute YT briefly on start to prevent media session steal, then restore volume
+        this.p.mute();
+        this.p.playVideo().then(() => {
+            // Small delay then unmute - gives dummy audio time to claim media session
+            setTimeout(() => {
+                this.p.unMute();
+                this.p.setVolume(this.Volume);
+            }, 100);
+        });
     }
 
     override PlayMusic(timer: number, started_callback: () => void | null, finished_callback: () => void | null): void
     {
         let hasStarted = false;
+        
+        // Ensure dummy audio is playing before starting YT (critical for iOS)
         this.dummyAudio.play().catch(e => console.log('Dummy audio play failed:', e));
+        
+        // Re-assert media session right before playback
+        this.updateMediaSession();
 
         this.p.seekTo(this.startSeconds, true);
+        
         let onPlay = (event)=>{
             if(event.data == PlayerStates.PLAYING && !hasStarted){
                 hasStarted = true;
@@ -148,7 +194,15 @@ export class YoutubeMusicPlayer extends Player {
 
         this.p.on("stateChange", onPlay);
 
-        this.p.playVideo();
+        // Mute YT briefly on start to prevent media session steal, then restore volume
+        this.p.mute();
+        this.p.playVideo().then(() => {
+            // Small delay then unmute - gives dummy audio time to claim media session
+            setTimeout(() => {
+                this.p.unMute();
+                this.p.setVolume(this.Volume);
+            }, 100);
+        });
 
     }
 

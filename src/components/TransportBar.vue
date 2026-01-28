@@ -6,6 +6,7 @@ import IconPlaying from "@/components/icons/IconPlaying.vue";
 import settings from "@/settings/settings.json"
 import {SoundcloudPlayer} from "@/players/SoundcloudPlayer";
 import {YoutubeMusicPlayer} from "@/players/YoutubePlayer";
+import {LocalAudioPlayer} from "@/players/LocalAudioPlayer";
 
 import {currentGameState, SelectedMusic} from "@/main"
 import {Player} from "@/players/PlayerBase";
@@ -66,10 +67,23 @@ let sepSelectInterval = setInterval(() => {
 }, 30);
 
 onMounted(()=>{
-  if(SelectedMusic.url.indexOf("soundcloud.com") !== -1)
+  // During gameplay, use local 32-second clips to prevent spoilers
+  // After win, switch to YouTube for full song playback
+  if(SelectedMusic.id && !currentGameState.value.isFinished) {
+    // Use API endpoint for protected 32-second clips during gameplay
+    const audioUrl = import.meta.env.PROD 
+      ? `/api/audio?id=${SelectedMusic.id}`
+      : `/audio/${SelectedMusic.id}.mp3`;
+    player = new LocalAudioPlayer(audioUrl);
+  } else if(SelectedMusic.url.indexOf("soundcloud.com") !== -1) {
     player = new SoundcloudPlayer(SelectedMusic.url);
-  else if (SelectedMusic.url.indexOf("youtube.com") !== -1)
+  } else if (SelectedMusic.url.indexOf("youtube.com") !== -1) {
+    // Use YouTube for full song (after game finished or no local audio)
     player = new YoutubeMusicPlayer(SelectedMusic.url);
+  } else {
+    // Fallback to local audio if URL doesn't match known services
+    player = new LocalAudioPlayer(SelectedMusic.url);
+  }
 
   isFinished.value = currentGameState.value.isFinished;
 
