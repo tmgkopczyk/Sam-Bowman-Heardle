@@ -720,14 +720,14 @@ Optional:
 
 ---
 
-### Example: Adapting for Taylor Swift
+### Example: Adapting for Matthew Parker
 
 Here's a complete minimal example:
 
 **Step 1: Update settings.json**
 ```json
 {
-  "heardle-name": "Taylor Swift",
+  "heardle-name": "Matthew Parker",
   "start-date": "2024-10-21T00:00:00.000Z",
   ...
 }
@@ -737,21 +737,21 @@ Here's a complete minimal example:
 ```json
 [
   {
-    "title": "Love Story",
-    "url": "https://www.youtube.com/watch?v=8xUN8GVXeKU",
-    "album": "Fearless"
+    "title": "Adventure",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "album": "Adventure"
   },
   {
-    "title": "Blank Space",
-    "url": "https://www.youtube.com/watch?v=e-IWRmpefzE",
-    "album": "1989"
+    "title": "Daydreamer",
+    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "album": "Daydreamer"
   }
 ]
 ```
 
 **Step 3: Update scrape_deezer.py line 12**
 ```python
-query = f'artist:"Taylor Swift" track:"{title}"'
+query = f'artist:"Matthew Parker" track:"{title}"'
 ```
 
 **Step 4: Generate IDs and fetch art**
@@ -766,8 +766,8 @@ python tools/download_audio.py
 ```
 
 **Step 6: Update modals**
-- AboutModal.vue: `"Taylor Swift Heardle features songs from Taylor Swift's discography."`
-- SupportModal.vue: Update links to Taylor's YouTube, Spotify, Apple Music
+- AboutModal.vue: `"Matthew Parker Heardle features songs from Matthew Parker's discography."`
+- SupportModal.vue: Update links to Matthew's YouTube, Spotify, Apple Music
 
 **Step 7: Deploy**
 ```bash
@@ -775,7 +775,7 @@ npm run build
 vercel --prod
 ```
 
-Done! You now have a Taylor Swift Heardle.
+Done! You now have a Matthew Parker Heardle.
 
 ---
 
